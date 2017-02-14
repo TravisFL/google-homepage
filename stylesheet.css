@@ -1,0 +1,118 @@
+body {
+	font-family: Arial, sans-serif;
+	
+}
+.logo {
+	margin: 80px auto 0px auto;
+	text-align: center;
+	display: block;
+	
+}
+.search {
+	margin: 30px auto 0px auto;
+	border: 1px solid #c4c4c4;
+	width: 550px;
+	padding: 7px 3px 7px 3px;
+	box-shadow: 2px 2.5px 0px #e5e5e5;
+	border-width: 0.5px 0.5px 0.5px 0.5px;
+}
+#google-button {
+	color: #727272;
+	font-size: 13px;
+	font-weight: bold;
+	display: inline;
+	left: 595px;
+	top: 30px;
+	padding: 10px;
+	position: relative;
+	border: 1px solid white;
+
+}
+#lucky-button {
+	color: #727272;
+	font-size: 13px;
+	font-weight: bold;
+	display: inline;
+	position: relative;
+	left: 618px;
+	top: 30px;
+	padding: 10px;
+	border: 1px solid white;
+}
+#google-button:hover, #lucky-button:hover {
+	border: 1px solid #9e9999;
+	padding: 10px;
+	font-weight: bold;
+	box-shadow: 2px 2.5px 0px #e5e5e5;
+}
+#french {
+	font-size: 13px;
+	position: absolute;
+	display: inline-block;
+	left: 650px;
+	top: 410px;
+}
+span {
+	color: blue;
+}
+#gmail, #images {
+	display: inline-block;
+	position: relative;
+	left: 1200px;
+	font-size: 13px;
+	padding-right: 10px;
+	opacity: 0.75;
+
+}
+#sign-in {
+	display: inline-block;
+	position: relative;
+	left: 1240px;
+	font-size: 13px;
+	border: 1px solid #fff;
+	background-color: rgb(66,133,244);
+	padding: 7px 12px 7px 12px;
+	color: white;
+	font-weight: bold;
+	border-radius: 3px;
+	
+}
+#app-logo {
+	display: inline-block;
+	position: relative;
+	left: 1303px;
+	top: -44px;
+	border: 1px solid white;
+	opacity: 0.75;
+
+}
+#sign-in:hover {
+
+}
+.footer{
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	opacity: 0.75;
+	border-top: 1px solid grey;
+	width: 100%;
+
+}
+
+#adv, #bus, #about  {
+	display: inline-block;
+	position: relative;
+	font-size: 13px;
+	margin: 10px;
+	left: 30px;
+	padding: 3px;
+}
+#priv, #terms, #settings {
+	display: inline-block;
+	position: relative;
+	left: 990px;
+	padding: 3px;
+	margin: 10px;
+	font-size: 13px;
+}
